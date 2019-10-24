@@ -1,0 +1,88 @@
+/* =======================================
+	
+	Template: Nursery
+	Css Name: Menu
+	Version: 1
+	Design and Developed by:HasTech
+	NOTE: This is Footer style file. All footer related style included in this file
+
+========================================== */
+
+.mobile-menu-area {
+  display: none;
+}
+.main-menu nav ul {
+  
+}
+.main-menu nav ul li {
+  display: inline-block;
+}
+.main-menu nav ul li a {
+  color: #fff;
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 28px 16px;
+  position: relative;
+  text-transform: uppercase;
+  transition: all 0.4s ease 0s;
+}
+.main-menu nav ul li:hover a{color:#474747;}
+.main-menu nav ul li > ul {
+  background: #ffffff none repeat scroll 0 0;
+  box-shadow: 0 3px 18px rgba(0, 0, 0, 0.1);
+  margin: 0;
+  opacity: 0;
+  padding: 15px 25px;
+  position: absolute;
+  text-align: left;
+  transform-origin: 0 0 0;
+  transition: all 0.5s ease 0s;
+  visibility: hidden;
+  width: 210px;
+  z-index: -9999;
+  top:180px;
+}
+.main-menu ul li ul li {
+  display: block;
+  overflow: hidden;
+}
+.main-menu ul li ul > li > a {
+  border-bottom: 1px dotted #619d09;
+  color: #555555;
+  display: block;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 12px;
+  overflow: hidden;
+  padding: 15px 0;
+  text-transform: uppercase;
+  transition: all 0.3s ease 0s;
+}
+.main-menu ul li ul > li:last-child > a {
+  border: medium none;
+}
+.main-menu ul li ul > li > a:hover{color:#619d09;margin-left:4px;}
+.main-menu ul li ul > li > a i{margin-right:10px;}
+.main-menu ul li:hover ul {
+  opacity: 1;
+  visibility: visible;
+  z-index: 999;
+  top:76px;
+}
+ /*Sticky Menu*/
+.sticky {
+  animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
+  background: #619d09 none repeat scroll 0 0;
+  left: 0;
+  margin: auto;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+}
+.sticky .main-menu nav ul li a{padding: 20px 15px;}
+.sticky .main-menu ul li:hover ul {
+  top: 60px;
+}
+.sticky .main-menu ul li ul > li > a{padding:15px 0px;}

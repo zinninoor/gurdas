@@ -1,0 +1,476 @@
+/* Laptop Scrren :1170px. */
+@media (min-width: 1170px) and (max-width: 1400px) {
+.container{width:1170px}
+.hero-item .content {
+  margin-top: 0;
+  text-align: center;
+}
+.hero-item .content p {
+  padding: 0 10%;
+}
+.welcome-text {
+  display: block;
+  overflow: hidden;
+  padding: 95px 100px 100px 55px;
+}
+.frequently-left {
+  padding: 95px 100px 80px;
+}
+.frequently-right {
+  padding: 117px 100px 123px;
+}
+.single {
+  left: 60px;
+}
+.single-two {
+  right: 155px;
+}
+.single-three {
+  bottom: 70px;
+}
+.bg-6 {
+  background: rgba(0, 0, 0, 0) url("../img/bg/3.png") repeat scroll 27% center / cover ;
+}
+    
+    
+    
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+.header-social ul li {
+  margin-left: 15px;
+  margin-top: 15px;
+}
+.hero-item .content {
+  margin-top: -42px;
+  text-align: center;
+}
+.hero-item .content h1 {
+  font-size: 44px;
+}
+.hero-item .content p {
+  padding: 0 9%;
+}
+.fes-ser-hover {
+  padding: 35px 30px;
+  width: 310px;
+  left:10px;
+}
+.welcome-text {
+  padding: 95px 60px 0px 55px;
+}
+.image-box.two img {
+  height: 233px;
+  width: 100%;
+}
+.frequently-left {
+  padding: 95px 50px 80px;
+}
+.frequently-right {
+  padding: 126px 50px 132px;
+}
+
+.contact-address {
+  padding: 80px 55px;
+}
+.notfound-content p {
+  padding: 0 25%;
+}
+.single {
+  left: 50px;
+}
+.single-two {
+  right: 110px;
+}
+.single-three {
+  bottom: 50px;
+}
+    
+    
+    
+    
+    
+}
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+.logo-img {
+  text-align: center;
+}
+.header-social {
+  float: none;
+}
+.header-social ul li {
+  margin-left: 20px;
+  margin-top: 25px;
+}
+.main-menu nav ul li a {
+  padding: 28px 12px;
+}
+.hero-item {
+  padding: 100px 0;
+}
+.hero-item .content {
+  margin-top: 0px;
+}
+.hero-item .content h1 {
+  font-size: 36px;
+}
+.hero-item .content p {
+  padding: 0 20%;
+}
+.welcome-text {
+  padding: 42px 35px 0 30px;
+}
+.our-service-right .service-img {
+  float: left;
+}
+.our-service-right .servce-cntnt {
+  margin-left: 65px;
+  margin-right: 0;
+}
+.image-box.two > img {
+  height: 173px;
+  width: 100%;
+}
+.image-box:hover .titel-venobox {
+  height: 60px;
+}
+.titel-venobox > span {
+  padding: 25px 0 0;
+  font-size: 16px;
+}
+.team-img > img {
+  width: 100%;
+}
+.team-area {
+  padding-bottom: 60px;
+  padding-top: 100px;
+}
+.team-single {
+  margin-bottom: 40px;
+}
+.frequently-left, .frequently-right {
+  float: none;
+  width: 100%;
+}
+.about-us-left {
+  margin-bottom: 50px;
+  margin-top: 0;
+}
+.about-us-right {
+  text-align: center;
+}
+.contact-address-from {
+  width: 100%;
+}
+.contact-address {
+  bottom: 0;
+  padding: 100px 90px;
+  position: inherit;
+  right: 0;
+  width: 100%;
+  top:0;
+}
+.contact-address-from {
+  padding: 100px;
+}
+.search-news {
+  margin-top: 55px;
+}
+.tag-list ul li:nth-child(2) a, .tag-list ul li:nth-child(4) a {
+  margin-right: 20px;
+}
+.tag-list ul li a {
+  margin-bottom: 0;
+}
+.notfound-content p {
+  padding: 0 20%;
+}
+.single {
+  left: 0;
+}
+.single-two {
+  right: 0;
+}
+.single-three {
+  bottom: 20px;
+}
+.fes-ser-hover {
+  width: 370px;
+}    
+.welcome-content h2 {
+  font-size: 28px;
+}    
+.frequently-left {
+  padding: 95px 60px 80px;
+}    
+.frequently-right {
+  padding: 117px 60px 123px;
+}    
+.breadcamb-area.ptb-170 {
+  padding: 80px 0;
+}     
+.hero-item {
+  padding: 100px 0;
+}    
+    
+    
+    
+}
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+.container {width:300px}
+.header-menu {
+  display: none;
+}
+.mobile-menu-area {
+  display: block;
+}
+.logo-img {
+  text-align: center;
+}
+.header-social {
+  float: none;
+}
+.header-social ul li {
+  margin-left: 0;
+  margin-top: 25px;
+}
+.hero-item {
+  padding: 100px 0;
+}
+.hero-item .content {
+  margin-top: 0px;
+}
+.hero-item .content h1 {
+  font-size: 30px;
+}
+.hero-item .content p {
+  display:none;
+}
+.hero-item .content a {
+  margin-left: 15px;
+  width: 125px;
+  font-size:14px;
+}
+.fes-ser-hover {
+  left: 0px;
+  padding: 32px 30px;
+  top: -18px;
+  width: 300px;
+}
+.features-service {
+  padding-bottom: 45px;
+  padding-top: 75px;
+}
+.features-service-single {
+  margin-bottom: 30px;
+}
+.welcome-video, .welcome-text {
+  float: none;
+  width: 100%;
+}
+.welcome-text {
+  height: inherit;
+  padding: 31px 41px 40px 40px;
+}
+.welcome-video {
+  height: 400px;
+}
+.welcome-content h2 {
+  font-size: 24px;
+}
+.welcome-content > a {
+  margin-top: 20px;
+}
+.service-single img {
+  margin-bottom: 30px;
+}
+.our-service-right .service-img {
+  float: left;
+}
+.our-service-right .servce-cntnt {
+  margin-left: 65px;
+  margin-right: 0;
+}
+.image-box:hover .titel-venobox {
+  height: 60px;
+}
+.titel-venobox > span {
+  padding: 28px 0 0;
+}
+.our-blog-area {
+  padding-bottom: 70px;
+  padding-top: 100px;
+}
+.our-blog-single {
+  margin-bottom: 30px;
+}
+.funfact-single {
+  float: left;
+  width: 100%;
+}
+.client-say-text {
+  padding: 80px 19px 40px;
+}
+.team-area {
+  padding-bottom: 60px;
+  padding-top: 100px;
+}
+.team-single {
+  margin-bottom: 40px;
+}
+.frequently-titel > h2 {
+  width: 100%;
+}
+.frequently-left {
+  float: none;
+  height: inherit;
+  padding: 70px 28px 57px 25px;
+  width: 100%;
+}
+.frequently-right {
+  float: none;
+  height: inherit;
+  padding: 57px 28px 63px 25px;
+  width: 100%;
+}
+
+.footer-top-left,.address-area {
+  margin-bottom: 30px;
+}
+.brand-logo {
+  padding-bottom: 0;
+}
+.footer-top {
+  margin-top: 84px;
+  padding-top: 265px;
+}
+.footer-intragram li {
+  margin-bottom: 8px;
+}
+.about-us-left {
+  margin-bottom: 50px;
+  margin-top: 0;
+}
+.skill-area {
+  margin-top: 0;
+}
+.skill {
+  padding-right: 0;
+}
+.team-area.two {
+  padding-bottom: 0;
+}
+.our-blog-area.two {
+  padding-bottom: 0;
+  padding-top: 100px;
+}
+.res-mr-0{margin:0;}
+.contact-address-from {
+  width: 100%;
+  padding: 50px 30px;
+}
+.contact-address {
+  bottom: 0;
+  padding: 80px 40px;
+  position: inherit;
+  right: 0;
+  top: 0;
+  width: 100%;
+}
+.contact-address-area {
+  padding-bottom: 0;
+}
+.search-news {
+  margin-top: 55px;
+}
+.tag-list ul li:nth-child(2) a, .tag-list ul li:nth-child(4) a {
+  margin-right: 15px;
+}
+.tag-list ul li:nth-child(5) a{margin-bottom:0;}
+.text-single {
+  padding-right: 0;
+  width: 100%;
+}
+.text-img-left {
+  width: 100%;
+}
+.comment-single-box.two {
+  margin-left: 0;
+}
+.tag-list ul li a {
+  margin-right: 12px;
+}
+.blog-details-area {
+  padding-bottom: 0;
+}
+.our-project-area {
+  padding-bottom: 0;
+}
+.single-project.res {
+  margin: 0;
+}
+.notfound-content p {
+  padding: 0;
+}
+.single,.single-two,.single-three {
+  display:none;
+}
+.search-input .search-button {
+  bottom: 30px;
+}
+.breadcamb-area.ptb-170 {
+  padding: 80px 0;
+}   
+.hero-item {
+  padding: 70px 0;
+}    
+.bg-6 {
+  background: rgba(0, 0, 0, 0) url("../img/bg/3.png") repeat scroll 11% center / cover ;
+}     
+    
+    
+    
+    
+    
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+.header-social ul li {
+  margin-left: 0;
+  margin-right: 10px;
+  margin-top: 25px;
+}
+.header-social ul li:last-child {
+  display: none;
+}
+.fes-ser-hover {
+  top: -23px;
+  width: 465px;
+}
+.welcome-text {
+  padding: 100px 50px 0 74px;
+}
+.blog-img > img,.image-box > img,.team-img > img {
+  width: 100%;
+}
+.frequently-left, .frequently-right {
+  height: auto;
+}
+.footer-intragram li:nth-child(3), .footer-intragram li:nth-child(6) {
+  margin-bottom: 16px;
+  margin-right: 1px;
+}
+.footer-intragram li {
+  margin-bottom: 16px;
+  margin-right: 1px;
+}
+.footer-intragram li:last-child{display:none;}
+}

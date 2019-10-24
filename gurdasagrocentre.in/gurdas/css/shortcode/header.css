@@ -1,0 +1,42 @@
+/* -----------------------------------
+Template:  Theme Name
+
+NOTE: This is Header style file. All Header related style included in this file.
+
+--------------------------------------*/
+
+.header-social ul li {
+  margin-left: 65px;
+  margin-top: 12px;
+}
+.header-social ul li span i {
+  border: 1px solid #619d09;
+  border-radius: 100px;
+  color: #619d09;
+  float: left;
+  font-size: 26px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  width: 45px;
+  transition:.4s;
+}
+.header-social .scl-adrs {
+  display: block;
+  margin-left: 62px;
+  overflow: hidden;
+}
+.scl-adrs h5 {
+  color: #5e5e5e;
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0 0 5px;
+}
+.scl-adrs h6 {
+  color: #737373;
+  font-family: lato;
+  font-weight: 700;
+  margin: 0;
+}
+.header-social ul li:hover span i{background:#619d09;color:#fff;}
+

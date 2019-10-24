@@ -1,0 +1,109 @@
+/* -----------------------------------
+Template:  Theme Name
+
+NOTE: This is Footer style file. All footer related style included in this file.
+
+--------------------------------------*/
+.footer-content > p {
+  color: #d7d7d7;
+  margin: 20px 0;
+}
+.footer-social ul li a {
+  border-radius: 100px;
+  color: #fff;
+  display: block;
+  font-size: 16px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  transition: all 0.3s ease 0s;
+  width: 30px;
+}
+.footer-social ul li a:hover{background:#fff;color:#619d09;}
+.address-area > h4,.footer-top-right > h4{
+  color: #fff;
+  display: block;
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0 0 16px;
+  padding-bottom: 10px;
+  position: relative;
+}
+.contact-details li {
+  font-weight: 300;
+  margin-bottom: 12px;
+  width: 100%;
+}
+.contact-details li:last-child {
+  margin-bottom: 15px;
+}
+.address-area .contact-details ul li i {
+  color: #fff;
+  float: left;
+  font-size: 16px;
+  margin-right: 10px;
+}
+.contact-details p {
+  color: #fff;
+  display: block;
+  font-size: 14px;
+  margin: -5px 0 0;
+  overflow: hidden;
+  padding-bottom: 0;
+  padding-top: 0;
+}
+.search-input h5 {
+  color: #ffffff;
+  font-family: lato;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0 0 15px;
+}
+.search-input form input {
+  background: #fff none repeat scroll 0 0;
+  border: 1px solid #d8d8d8;
+  border-radius: 0;
+  color: #999999;
+  font-family: lato;
+  font-size: 12px;
+  height: 40px;
+  padding: 5px 15px;
+  position: relative;
+}
+.search-input .search-button {
+  background: #fff none repeat scroll 0 0;
+  border: medium none;
+  border-radius: 0;
+  color: #619d09;
+  font-size: 20px;
+  height: 40px;
+  line-height: 40px;
+  position: absolute;
+  right: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: all 0.4s ease 0s;
+  width: 50px;
+  bottom:0;
+}
+.search-input .search-button:hover{color:#fff;background:#619d09;}
+.footer-intragram li {
+  margin-bottom: 12px;
+  margin-right: 7px;
+}
+.footer-intragram li:nth-child(3),.footer-intragram li:nth-child(6){margin-right:0;}
+/* Mail Chimp */
+.mailchimp-alerts {
+  padding: 10px 0;
+  position:absolute;
+}
+.mailchimp-submitting{color:#31708f}
+.mailchimp-success{color:#3c763d;}
+.mailchimp-error{color:#a94442;}
+
+.footer-bottom p,.footer-bottom p a {
+  color: #fff;
+  margin: 0;
+  transition:.3s;
+}
+.footer-bottom p a:hover{color:#616161;}
